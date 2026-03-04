@@ -7,8 +7,9 @@
 </head>
 <body>
     <?php
+    $numero = 7;
 for ($i = 1; $i <= 10; $i++) {
-    echo "5 X $i = ". 5 * $i . "<br>";
+    echo "$numero X $i = ". $numero * $i . "<br>";
 }
 ?>
 </body>
